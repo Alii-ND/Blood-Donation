@@ -99,7 +99,7 @@ class MyAppState extends State<MyApp> {
                     GlobalMaterialLocalizations.delegate,
                     GlobalWidgetsLocalizations.delegate,
                     //app-specific localization
-                    EasylocaLizationDelegate(
+                    EasyLocalizationDelegate(
                         locale: data.locale, path: 'resources/langs'),
                   ],
                   routes: <String, WidgetBuilder>{
